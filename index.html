@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <meta charset "utf-8">
+        <title>Project 3</title>
+       
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+       
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       
+        <link rel="shortcut icon" href="#" />
+       
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+       
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+       
+    </head>
+   
+    <body id="background">
+       
+        <div class="container">
+           
+            <div class="jumbotron">
+               
+                <h1>Weather Search</h1>
+               
+                <p>Please enter the name of the city you would like to retrieve</p>
+               
+                <div class="form-group row">
+                    <label for="city" class="col-sm-2 col-form-label">City</label>
+                    
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="q" placeholder="Salinas" required>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-4">
+                            <button type="submit" class="btn btn-primary" id="submitButton">Retrieve</button>
+                        </div>
+                    </div>
+               
+                </div>
+           
+            </div>
+       
+            <div id="backbackground">
+           
+                <div id="results"></div>
+           
+            </div>
+       
+        </div>
+       
+    <script src = "js/app.js"></script>
+   
+    </body>
+   
+</html>
